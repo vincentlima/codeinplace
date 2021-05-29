@@ -8,25 +8,25 @@ It applies the following constraint: the test blueprint specifies minimum and ma
 Results are printed to the console.
 """
 
-RESPONSE_STRING = 'data/alt_response_string.csv'
+RESPONSE_STRING = 'alt_response_string.csv'
 # RESPONSE_STRING is assumed to be a csv file with three entries per line:
 #   candidate_ID
 #   item_ID
 #   response
 # The combination candidate_ID and item_ID is assumed to be unique
 
-BLUEPRINT = 'data/alt_blueprint.csv'
+BLUEPRINT = 'alt_blueprint.csv'
 # BLUEPRINT is assumed to be a csv file with three values per row:
 #   domain
 #   min
 #   max
 
-KEYS = 'data/alt_keys.csv'
+KEYS = 'alt_keys.csv'
 # KEYS is assumed to be a csv file with  two values per row:
 #   item_ID
 #   key (credited response)
 
-DOMAINS = 'data/alt_domains.csv'
+DOMAINS = 'alt_domains.csv'
 # DOMAINS is assumed to be a csv file with  two values per row:
 #   item_ID
 #   domain
